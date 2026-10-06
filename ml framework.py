@@ -1,6 +1,6 @@
 # Steps to cover to do machine learning
 # 1. create a framework
-# 2. match the framework to data scienc and ml tools
+# 2. match the framework to data science and ml tools
 # 3. learn by doing projects
 
 
@@ -28,4 +28,34 @@
 # Mean absolute error, Mean squared error
 # Precision at K - Recommendation
 
-# Features in Data
+# Features in Data - what do we already know about the data
+
+
+# Modelling part 1 - splitting your data
+# 3 set of data splitting - Training, validation, and testing set
+# NB: Machine learning model should not see the test split during training
+
+# Modelling part 2 - choosing your model
+# for structured data - catBoost, Random forest
+# for unstructured data - deep learning, and transfer learning
+# training the model
+
+# Modelling part 3 - tuning your model
+# ml models have hyperparameters you can adjust
+# Tuning can take place on training or validation data set
+
+# Modelling Part 4 -  Comparison
+# Overfitting - Training Set performance lower than Test set performance
+# Underfitting - Testing Set underperforming Training Set
+
+# Overfitting is as a result of data leakage (data leaks from training to the testing data)
+# Underfitting results from data mismatch
+# fixes for them
+# Underfitting- try a more advanced model, increase hyperparameters, reduce amount of features, train longer
+# overfitting - Collect more data, try a less advanced model
+
+# Experimentation
+
+
+
+
